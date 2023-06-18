@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: black;
+    background-color: whitesmoke;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -21,7 +21,7 @@ header {
 
 .logo {
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -29,14 +29,14 @@ header {
 
 .navig a {
     text-decoration: none;
-    color: white;
+    color: darkgray;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
 }
 
 .navig a:hover {
-    color: #00FFFF;
+    color: black;
     /* font-size: 1.125em;
     transition: all 0.1s; */
 }
@@ -50,12 +50,12 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* background-image: radial-gradient(rgb(0, 195, 255), #cfecf8); */
-    background-image: radial-gradient(#00FFFF, #4B0082);
+    background-image: radial-gradient(rgb(0, 195, 255), #cfecf8);
+    /* background-image: radial-gradient(#00FFFF, #4B0082); */
 }
 
 .main h2 {
-    color: #4B0082;
+    color: black;
     font-size: 1.4em;
     font-weight: 500;
 }
@@ -64,4 +64,38 @@ section {
     color: #fff;
     font-size: 3em;
     font-weight: 600;
+}
+
+.main h3 {
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-weight: 800;
+    display: inline-block;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.main-btn:hover {
+    background-color: rgb(230, 230, 230);
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+.social a {
+    padding: 10px;
+    color: #fff;
 }
