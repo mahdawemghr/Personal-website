@@ -9,19 +9,19 @@
 }
 
 header {
-    background-color: aliceblue;
+    background-color: black;
     width: 100%;
     position: fixed;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 0px 200px;
 }
 
 .logo {
     text-decoration: none;
-    color: rgb(0, 195, 255);
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -29,14 +29,39 @@ header {
 
 .navig a {
     text-decoration: none;
-    color: rgb(0, 195, 255);
+    color: white;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
 }
 
 .navig a:hover {
-    color: black;
-    font-size: 1.125em;
-    transition: all 0.1s;
+    color: #00FFFF;
+    /* font-size: 1.125em;
+    transition: all 0.1s; */
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background-image: radial-gradient(rgb(0, 195, 255), #cfecf8); */
+    background-image: radial-gradient(#00FFFF, #4B0082);
+}
+
+.main h2 {
+    color: #4B0082;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
 }
