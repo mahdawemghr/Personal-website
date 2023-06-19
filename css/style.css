@@ -235,6 +235,17 @@ footer span {
     color: black;
 }
 
+.CV {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    transition: 0.4s ease;
+}
+
+.CV:hover {
+    color: white;
+}
+
 @media (max-width:1023px) {
     header {
         padding: 12px 20px;
